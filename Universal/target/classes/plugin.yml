@@ -1,0 +1,49 @@
+name: Universal
+version: '1.0.0'
+main: dev.xalphabet.universal.Universal
+api-version: '1.20'
+commands:
+  alert:
+    description: Sends an alert message to the player.
+    usage: /alert <message>
+    executor: dev.xalphabet.universal.Universal
+  kickall:
+    description: Kicks all non-admin users.
+    usage: /kickall
+    executor: dev.xalphabet.universal.Universal
+  hello:
+    description: Says hello to the player.
+    usage: /hello
+    executor: dev.xalphabet.universal.Universal
+  time:
+    description: Shows the current time in the world.
+    usage: /time
+    executor: dev.xalphabet.universal.Universal
+  heal:
+    description: Heals the player.
+    usage: /heal
+    executor: dev.xalphabet.universal.Universal
+  feed:
+    description: Fills the hunger bar of the player.
+    usage: /feed
+    executor: dev.xalphabet.universal.Universal
+  gamemode:
+    description: Changes the gamemode of a player.
+    usage: /gamemode <gamemode> <player>
+    executor: dev.xalphabet.universal.Universal
+  gmc:
+    description: Sets the gamemode to Creative.
+    usage: /gmc <player>
+    executor: dev.xalphabet.universal.Universal
+  gms:
+    description: Sets the gamemode to Survival.
+    usage: /gms <player>
+    executor: dev.xalphabet.universal.Universal
+  gmsp:
+    description: Sets the gamemode to Spectator.
+    usage: /gmsp <player>
+    executor: dev.xalphabet.universal.Universal
+  gma:
+    description: Sets the gamemode to Adventure.
+    usage: /gma <player>
+    executor: dev.xalphabet.universal.Universal
