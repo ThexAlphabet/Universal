@@ -46,7 +46,7 @@ public class Universal extends JavaPlugin implements Listener, CommandExecutor {
         // Get the player who joined
         String playerName = event.getPlayer().getName();
 
-        // Display the welcome message on the player's screen
+        // Display the welcome message on the player's screen idk why but sure.
         String welcomeMessage = ChatColor.BLUE + "Welcome to the Server!";
         String playerNameMessage = ChatColor.DARK_GRAY + "Have fun, " + playerName + "!";
 
@@ -77,7 +77,7 @@ public class Universal extends JavaPlugin implements Listener, CommandExecutor {
 
             String alertMessage = ChatColor.RED + message.toString().trim();
 
-            // Send title and play sound to all online players
+            // Send title and play sound to all online players for more action ig.
             for (Player player : Bukkit.getOnlinePlayers()) {
                 player.sendTitle(alertMessage, "", 10, 70, 20);
                 player.playSound(player.getLocation(), Sound.ENTITY_ARROW_HIT_PLAYER, 1.0f, 1.0f);
